@@ -1,5 +1,11 @@
+module.exports = add;
+module.exports =sum;
+
 const add = (a,b)=>{
     return a+b;
 }
 
-module.exports = add;
+const sum = (a,b)=>{
+    return a*b;
+}
+
